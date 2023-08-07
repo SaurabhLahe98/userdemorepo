@@ -68,6 +68,10 @@ public class UserController {
 		return new ResponseEntity<BaseResponse<List<User>>>(new BaseResponse<List<User>>(200,"SEARCH RESULT" , new Date(),searchUsers),HttpStatus.OK);
 		
 	}
-	//cooment
+	
+	public  String github() {
+		return "THIS IS KUNAL";
+		
+	}
 	 
 }

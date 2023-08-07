@@ -73,5 +73,9 @@ public class UserController {
 		return "THIS IS KUNAL";
 		
 	}
+	public String changesZ()
+	{
+		return "this is vaibhav";
+	}
 	 
 }
